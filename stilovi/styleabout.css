@@ -7,7 +7,7 @@
 
 /* Tijelo stranice */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Comic Sans MS', cursive; /* Dodaj neki veseo font */
     background-color: #f9f9f9;
     color: #444;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -26,45 +26,44 @@ main {
 
 /* Naslov na glavnoj sekciji */
 main h2 {
-    color: #2ecc71;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-main h2:hover {
-    color: #3498db;
-    transform: scale(1.1);
+    color: #ff9900; /* Narandžasta boja */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Paragrafi u glavnoj sekciji */
 main p {
     line-height: 1.6;
+    color: #555;
 }
 
-/* Slika u glavnoj sekciji */
-main img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 15px;
-}
-
-/* Sekcija s društvenim mrežama */
-main section {
-    margin-top: 20px;
-}
-
-/* Linkovi društvenih mreža */
-section ul {
+/* Lista u glavnoj sekciji */
+main ul {
     list-style: none;
-    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
-section li {
-    margin-right: 10px;
+main li {
+    margin-bottom: 10px;
 }
 
-section img {
-    width: 40px;
-    height: 40px;
+/* Linkovi u glavnoj sekciji */
+main a {
+    color: #ff9900; /* Narandžasta boja */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+main a:hover {
+    color: #ff6600; /* Svetlija narandžasta boja */
+}
+
+/* Video iframe */
+main iframe {
+    width: 100%;
+    height: 315px;
+    margin-top: 20px;
 }
 
 /* Footer */
@@ -72,20 +71,21 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 10px;
-    background-color: #2ecc71;
+    background-color: #ff9900; /* Narandžasta boja */
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover efekat na footeru */
 footer:hover {
-    background-color: #27ae60;
+    background-color: #ff6600; /* Svetlija narandžasta boja */
     transform: translateY(-5px);
 }
 
 /* Header */
 header {
-    background-color: #2ecc71;
+    background-color: #ff9900; /* Narandžasta boja */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -115,5 +115,5 @@ nav a {
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #ffe066; /* Svetlija narandžasta boja */
 }

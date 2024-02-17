@@ -1,0 +1,151 @@
+/* Resetiranje osnovnih stilova */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tijelo stranice */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Dodaj neki veseo font */
+    background-color: #f9f9f9;
+    color: #444;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Glavna sekcija */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Naslov na glavnoj sekciji */
+main h2 {
+    color: #ffcc00; /* Žuta boja */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Slika u glavnoj sekciji */
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Efekat na slikama */
+main img:hover {
+    transform: scale(1.1);
+}
+
+/* Opis slika */
+main figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ffcc00; /* Žuta boja */
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover efekat na footeru */
+footer:hover {
+    background-color: #ffd700; /* Svetlija žuta boja */
+    transform: translateY(-5px);
+}
+
+/* Header */
+header {
+    background-color: #ffcc00; /* Žuta boja */
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navigacija */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Žuta boja */
+}
+
+/* Forma */
+main form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Stilizacija labela i input polja */
+main form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+main form input,
+main form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Checkbox stilizacija */
+main form input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* Stilizacija submit buttona */
+main form input[type="submit"] {
+    background-color: #ffcc00; /* Žuta boja */
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main form input[type="submit"]:hover {
+    background-color: #ffd700; /* Svetlija žuta boja */
+}

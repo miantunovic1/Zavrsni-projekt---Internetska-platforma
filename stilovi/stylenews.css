@@ -7,7 +7,7 @@
 
 /* Tijelo stranice */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Comic Sans MS', cursive; /* Veseli font */
     background-color: #f9f9f9;
     color: #444;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -26,45 +26,31 @@ main {
 
 /* Naslov na glavnoj sekciji */
 main h2 {
-    color: #2ecc71;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-main h2:hover {
-    color: #3498db;
-    transform: scale(1.1);
-}
-
-/* Paragrafi u glavnoj sekciji */
-main p {
-    line-height: 1.6;
+    color: #ff66b2; /* Roze boja */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Slika u glavnoj sekciji */
 main img {
     max-width: 100%;
     height: auto;
-    margin-top: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
-/* Sekcija s društvenim mrežama */
-main section {
-    margin-top: 20px;
+/* Efekat na slikama */
+main img:hover {
+    transform: scale(1.1);
 }
 
-/* Linkovi društvenih mreža */
-section ul {
-    list-style: none;
-    display: flex;
-}
-
-section li {
-    margin-right: 10px;
-}
-
-section img {
-    width: 40px;
-    height: 40px;
+/* Opis slika */
+main figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
 }
 
 /* Footer */
@@ -72,21 +58,22 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 10px;
-    background-color: #2ecc71;
-    color: #fff;
+    background-color: #ff66b2; /* Roze boja */
+    color: #333;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover efekat na footeru */
 footer:hover {
-    background-color: #27ae60;
+    background-color: #ff3385; /* Svetlija roze boja */
     transform: translateY(-5px);
 }
 
 /* Header */
 header {
-    background-color: #2ecc71;
-    color: #fff;
+    background-color: #ff66b2; /* Roze boja */
+    color: #333;
     padding: 10px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -109,11 +96,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #ff66b2; /* Roze boja */
 }
